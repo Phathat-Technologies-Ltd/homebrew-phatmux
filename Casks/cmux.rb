@@ -1,6 +1,6 @@
 cask "cmux" do
-  version "cmux-preview-assets"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  version "1.38.1"
+  sha256 "dc84a0b122046fe9079850a035d916d1d274cd2819fffe1fe54ad0e156f0109c"
 
   url "https://github.com/manaflow-ai/cmux/releases/download/v#{version}/cmux-macos.dmg"
   name "cmux"
@@ -19,6 +19,6 @@ cask "cmux" do
   zap trash: [
     "~/Library/Application Support/cmux",
     "~/Library/Caches/cmux",
-    "~/Library/Preferences/ai.manaflow.cmux.plist",
+    "~/Library/Preferences/ai.manaflow.cmuxterm.plist",
   ]
 end
