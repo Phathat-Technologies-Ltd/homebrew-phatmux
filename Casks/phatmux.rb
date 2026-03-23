@@ -1,6 +1,6 @@
 cask "phatmux" do
-  version "0.62.2"
-  sha256 "1582d51df379f617d4ee2e3891906c86fad6157b6a39c70f0b02b19602ff9416"
+  version "0.63.0"
+  sha256 "020dbc8c77612d9ee5cfbf1ca0dda79d0faf1215d9a960e54d32e6343657a121"
 
   url "https://github.com/Phathat-Technologies-Ltd/phatmux/releases/download/v#{version}/phatmux-macos.dmg"
   name "phatmux"
